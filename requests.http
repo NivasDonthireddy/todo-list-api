@@ -1,0 +1,23 @@
+### Get all Todos
+
+GET http://localhost:3000/todo
+
+
+### Post a todo request
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+    "label": "Buy Logitech Gaming Mouse",
+    "complete": false
+}
+
+
+###Update the todo item
+PUT http://localhost:3000/todo/1
+Content-Type: application/json
+
+{
+    "label": "Buy Logitech Gaming Mouse",
+    "complete": true
+}
